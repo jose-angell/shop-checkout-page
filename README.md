@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://jose-angell.github.io/shop-checkout-page/}">
+    <a href="https://jose-angell.github.io/shop-checkout-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://github.com/jose-angell/shop-checkout-page}">
+    <a href="https://github.com/jose-angell/shop-checkout-page">
       Solution
     </a>
     <span> | </span>
