@@ -70,6 +70,7 @@
     height: 100%;
     background: #D2D5DA;
     border-radius: 2% 0% 0% 2%;
+    padding: 1em 2em;
 }
 .right {
     width: 50%;
@@ -85,20 +86,102 @@
 }
 .item {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: end;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
+    padding: 0 0;
+    gap: 1.5em;
 }
 .container-image-item {
     background: #FFFFFF;
     padding: 1em;
     display: flex;
     justify-content: center;
-    width: 38%;
+    width: 100%;
     height: 100%;
     border-radius: 10%;
-    margin-left: 3rem;
 }
 .image-item {
     align-self: stretch;
+}
+.data-left-item {
+    display:grid;
+    grid-template-rows: repeat(6, 1fr);
+
+}
+.count-item {
+    grid-row-start: 6;
+}
+
+.data-right-item {
+    grid-column-start: 4;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    place-content: flex-end;
+}
+.icon-delete-item {
+    grid-row-start: 6;
+    display: flex;
+    justify-content: end
+}
+.name-item {
+    font-weight: 700;
+    font-family: "Regular", sans-serif;
+}
+
+.price-item {
+    font-weight: 700;
+    font-family: "Regular", sans-serif;
+}
+.descrition-item {
+    font-weight: 500;
+    font-family: "Regular", sans-serif;
+}
+.count-item {
+    font-weight: 400;
+    font-family: "Regular", sans-serif;
+}
+.icon-delete-item {
+    font-weight: 700;
+    font-family: "Regular", sans-serif;
+}
+
+.coupon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 1em;
+}
+
+hr {
+    width: 100%;
+    border-color: #E5E7EB ;
+    margin: 1.5em 0;
+}
+.input-coupon {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.input-coupon input {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #394150;
+    font-family: 'Regular', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    outline: 0;
+    border: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.button-coupon button{
+    color: #E5E7EB;
+    background-color: #1D1D1F;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-family: 'Regular', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
 }
