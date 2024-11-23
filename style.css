@@ -77,7 +77,10 @@
     height: 100%;
     background: #FFFFFF;
     border-radius: 0% 2% 2% 0%;
-
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 .list-items{
     display: grid;
@@ -97,8 +100,8 @@
     padding: 1em;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height:  -webkit-fill-available;
     border-radius: 10%;
 }
 .image-item {
@@ -144,6 +147,7 @@
 .icon-delete-item {
     font-weight: 700;
     font-family: "Regular", sans-serif;
+    cursor: pointer;
 }
 
 .coupon {
@@ -169,13 +173,13 @@ hr {
     font-family: 'Regular', sans-serif;
     font-size: 1em;
     font-weight: 500;
-    outline: 0;
-    border: none;
+    border: 1px solid #D2D5DA;
+    outline: none;
     width: 100%;
     padding: 15px;
 }
 
-.button-coupon button{
+.button-coupon button {
     color: #E5E7EB;
     background-color: #1D1D1F;
     width: 100%;
@@ -184,6 +188,7 @@ hr {
     font-family: 'Regular', sans-serif;
     font-weight: 500;
     font-size: 1em;
+    cursor: pointer;
 }
 
 .total {
@@ -210,4 +215,64 @@ hr {
 
 .color-label-total {
     color: #394150;
+}
+
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.div-name,
+.div-email,
+.div-country,
+.div-postal-code {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.div-address {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.div-country {
+    width: 100%;
+}
+.div-postal-code {
+    width: -webkit-fill-available;
+}
+.form-contact input,
+.form-contact select {
+    height: 3.5rem;
+    background: #E5E7EB;
+    border-radius: 8px;
+    font-family: 'Regular',sans-serif;
+    font-size: 1.2rem;
+    color: #394150;
+    border: 1px solid #D2D5DA;
+    outline: none;
+    padding: 0 .5em;
+}
+.form-contact label {
+    font-family: 'Regular', sans-serif;
+    font-weight: 600;
+    color: #394150;
+}
+
+.button-contact button {
+    color: #E5E7EB;
+    background-color: #1D1D1F;
+    width: 100%;
+    height: 3em;
+    border-radius: 10px;
+    font-family: 'Regular', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.title-contact {
+    font-family: 'Medium', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
 }
