@@ -38,7 +38,7 @@
 
 ## Overview
 This challenge is to design a Chart checkout page by devchallenges.io. It has been a good challenge to test my HTML, CSS skills with a responsive web site. 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](screenshot.png)
 
 <!--
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
@@ -48,12 +48,15 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 -->
 
 ### What I learned
-I have applied media queries ...
+I had the opportunity to learn and remember flexbox and grid concepts that improved my way of structuring elements within an html.
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 
 ### Useful resources
 
 - [mozilla](https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods) - Relación de Grid Layout con otros métodos de diseño y posicionamiento - CSS.
+- [css-TRICKS-Media-Queries-Guide](https://css-tricks.com/a-complete-guide-to-css-media-queries/) - Guide to using media queries.
+- [ProgramandoAMediaNoche](https://www.programandoamedianoche.com/2019/05/guia-completa-para-aprender-a-utilizar-css-grid-layout/) - Guia completa para aprender a utilizar css grid layout
+- [CSS-Tricks-Flexbox-Layout-Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Guide to using Flexbox
 <!--
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 -->
