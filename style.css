@@ -95,7 +95,7 @@
     height: fit-content;
     background: #FFFFFF;
     border-radius: 0% 2% 2% 0%;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.7rem;
@@ -103,6 +103,7 @@
 .list-items{
     display: flex;
     flex-direction: column;
+    padding-bottom: .5rem;
 }
 .item {
     display: grid;
